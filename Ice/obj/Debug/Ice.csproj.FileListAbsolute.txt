@@ -1,0 +1,40 @@
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\csc.exe
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\vbc.exe
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\VBCSCompiler.exe
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\Ice.dll.config
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\Ice.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\Ice.pdb
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\obj\Debug\Ice.csprojResolveAssemblyReference.cache
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\obj\Debug\Ice.dll
+C:\Users\Vasserman\Documents\GitHub\Ice\Ice\Ice\obj\Debug\Ice.pdb
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\csc.exe
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\vbc.exe
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\VBCSCompiler.exe
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\Ice.dll.config
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\Ice.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\Ice.pdb
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\obj\Debug\Ice.csprojResolveAssemblyReference.cache
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\obj\Debug\Ice.dll
+C:\Users\Pini\Desktop\projects\Client Server course assignments\ServerSide\Ice\Ice\obj\Debug\Ice.pdb

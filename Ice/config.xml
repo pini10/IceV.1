@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.yepsweets"
+        version   = "1.0.0"> 
+
+  <name>YEP!</name>
+  <description>
+      All Our Sweets In Your APP!
+  </description>
+  
+  <author href="http://yepsweets.com" email="pini1089@gmail.com">
+    pini
+  </author>
+  
+  <preference name="phonegap-version" value="3.7.0"/>
+  <!--<preference name="phonegap-version" value="cli-5.2.0"/>--><!--long compiling and insallting time-->
+  
+  <!--<gap:plugin name="org.crosswalk.engine" version="1.3.0" />
+  <gap:plugin name="cordova-plugin-whitelist" source="npm" />-->
+  
+  <gap:plugin name="org.apache.cordova.splashscreen" />
+  
+  <access origin="*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <allow-intent href="sms:*"/>
+  <allow-intent href="mailto:*"/>
+  <allow-intent href="geo:*"/>
+  <platform name="android">
+    <allow-intent href="market:*"/>
+  </platform>
+  <platform name="ios">
+    <allow-intent href="itms:*"/>
+    <allow-intent href="itms-apps:*"/>
+  </platform>
+  
+  <icon src="images/icon.png"  width="57" height="57" />
+  <splash src="images/splash/Splash-med.png"  platform="ios"  width="320" height="480" />
+  <splash src="images/splash/Splash-med.png"  platform="android" gap:density="mdpi" />
+  <splash src="Splash-med.png" />
+  <!--width="470" height="320"-->
+</widget>

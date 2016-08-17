@@ -1,0 +1,165 @@
+/*
+Color Index:
+--------------
+lightpink - #EC008C
+darkpurple - #34005C
+page background color : light perpule - #BD9FD4
+PostDiv background color : light gray - #eeeeee
+
+*/
+
+
+*{
+	font-family: "Roboto", sans-serif;
+}
+h2{
+	margin: 0 auto;
+}
+.ui-page{
+	background-color: #BD9FD4;
+}
+.ui-content{
+	margin-top: -5px !important;
+	padding: 0;
+	background-color: #BD9FD4;
+}
+.ui-header{
+	background-color: #34005C !important;
+}
+
+.postDiv{
+	border-radius: 2px;
+	display: block;
+	background-color: #eeeeee;
+	box-shadow: 0px 0px 0px 1px #7E559E, 0px 0px 2px 1px #E4C8FA; 
+	padding: 5px 5px 5px 5px;
+	margin:7px;
+}
+.mySlide{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 170px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 5px 0px #34005C,1px 0px 15px 0px #BD9FD4;
+	top:4px;
+}
+.mySlide > div{
+	display: block;
+	position: absolute;
+	top:0px;
+	left:0px;	
+	width: inherit;
+	height: inherit;
+}	
+.mySlide > div > img{
+	width: inherit;
+	height: inherit;
+}
+
+.body-post{
+    overflow:hidden;
+	border-top: 3px solid #595959;
+	word-wrap: break-word;
+}
+.featureIcon{
+	float: right;
+}
+.featureIcon > img{
+	height: 24px;
+	margin: 1px;
+}
+.seperator{
+	margin: 6px;
+}
+.seperatorMini{
+	height:0px;
+}
+.menuLink > img{
+	float:right;
+	margin: 1px;
+	padding-bottom: 3px;
+}
+.errorMsg{
+    color: red;
+    font-size:smaller;
+}
+#statusBar,.statusBar{
+    background-color:#34005C;
+    margin:0px ;
+}
+
+.btnSignIn {
+    background-color:white !important;
+    border: #EC008C solid 5px !important;
+    border-radius: 10px 10px 0px 0px !important;
+    margin-top: 15px !important;
+    margin-bottom:-5px !important;
+    color:white;
+}
+#signIn{
+    padding: 15px;
+    color:#EC008C;
+    background-color: #EEEEEE;
+}
+.Mybtn{
+    background:#EC008C;
+    color:#34005C;
+
+}
+#menu{
+	background: #34005C;
+}
+#menu  a{
+		border: 0px black SOLID;
+		background: inherit;
+		border-top: 0px;
+		color: black;
+}
+#menuList > li{
+	border: 0px black SOLID;
+}
+.ui-li-divider{
+	background: #A173FF !important;
+	padding: 0px !important;
+
+}
+li{
+	background: #BD9FD4 !important;
+}
+.ui-panel-wrapper{
+	background: inherit !important;
+}
+#map-canvas{
+    margin: 15px auto;
+    box-shadow: #34005C 0px 0px 2px 0px;
+	background: black;
+	width: 95%;
+	height: 400px;
+}
+#txtSelectedBranche{
+    color: #BD9FD4;
+    text-shadow: #34005C 1px 1px 0px;
+}
+#myTr{
+    display: inline-flex !important;
+}
+h3{
+    margin: 4px auto;
+    padding-left:5px;
+}
+.color-text-gray{
+    color:#808080;
+}
+.no-margin{
+    margin:0px;
+}
+.margin-5{
+        margin:5px;
+}
+.margin-left-15{
+    margin-left:15px;
+    padding-right:15px;
+    border-right:#808080 solid 2px;
+}

@@ -134,7 +134,7 @@
         json: true
       }, [].slice.call(arguments));
     };
-    api.defaults = {};
+    api.defaults = { expires: 2, path: '/' };
 
     api.remove = function (key, attributes) {
       api(key, '', extend(attributes, {

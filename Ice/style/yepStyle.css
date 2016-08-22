@@ -2,6 +2,7 @@
 Color Index:
 --------------
 lightpink - #EC008C
+colapsiblePink - #FF91D2
 darkpurple - #34005C
 page background color : light perpule - #BD9FD4
 PostDiv background color : light gray - #eeeeee
@@ -10,13 +11,16 @@ PostDiv background color : light gray - #eeeeee
 
 
 *{
-	font-family: "Roboto", sans-serif;
+	font-family: "Roboto", sans-serif !important;
 }
 h2{
 	margin: 0 auto;
 }
 .ui-page{
 	background-color: #BD9FD4;
+}
+.ui-panel-page-container-themed .ui-page-active {
+    background-color: #BD9FD4;
 }
 .ui-content{
 	margin-top: -5px !important;
@@ -75,6 +79,8 @@ h2{
 }
 .seperatorMini{
 	height:0px;
+    margin:5px;
+    border-bottom: dashed #808080 1px;
 }
 .menuLink > img{
 	float:right;
@@ -90,6 +96,26 @@ h2{
     margin:0px ;
 }
 
+.leftStatusBarBtn {
+    background-color:white !important;
+    border: #EC008C solid 5px !important;
+    border-right: 2px solid #EC008C !important;
+    border-radius: 10px 0px 0px 0px !important;
+    margin-top: 15px !important;
+    margin-bottom:-5px !important;
+    color:white;
+    margin-right:0px !important;
+}
+.rightStatusBarBtn {
+    background-color:white !important;
+    border: #EC008C solid 5px !important;
+    border-left: 0px !important;
+    border-radius: 0px 10px 0px 0px !important;
+    margin-top: 15px !important;
+    margin-bottom:-5px !important;
+    color:white;
+    margin-left:0px !important;
+}
 .btnSignIn {
     background-color:white !important;
     border: #EC008C solid 5px !important;
@@ -153,13 +179,64 @@ h3{
     color:#808080;
 }
 .no-margin{
-    margin:0px;
+    margin:0px !important;
 }
 .margin-5{
         margin:5px;
 }
 .margin-left-15{
-    margin-left:15px;
+    margin-left:10px;
     padding-right:15px;
-    border-right:#808080 solid 2px;
+}
+#myOrdersListCollapsible{
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.ui-collapsible-heading-toggle{
+    background-color: #FF91D2 !important;
+    border-bottom: 2px solid #34005C !important;
+}
+.ui-collapsible-heading-toggle:focus{
+    box-shadow: #BD9FD4 0px 2px 5px 0px !important;
+}
+.data-spacer{
+    border-left: 2px solid  #34005C;
+    padding:0px;
+    margin-right:15px;
+    margin-left:15px
+}
+.colored-text {
+    color: #EC008C;
+}
+.fadeLoadingDiv{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #ababab;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .70;
+    filter: alpha(opacity=80);
+}
+.modelLoadingDiv{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 64px;
+    height: 64px;
+    padding:30px 15px 0px;
+    border: 3px solid #ababab;
+    box-shadow:1px 1px 10px #ababab;
+    border-radius:90%;
+    background-color: #E4C8FA;
+    z-index: 1002;
+    text-align:center;
+}
+.modelLoadingDiv img {
+    margin-left: -75px;
+    margin-top: -90px;
 }

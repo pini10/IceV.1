@@ -100,7 +100,7 @@
                     <div class="ui-grid-solo">
                         <div class="ui-block-a">
                             <div class="ui-field-contain">
-                                <label for="select-choice-1" class="select">Select Branche:</label>
+                                <label for="select-choice   -1" class="select">Select Branche:</label>
                                 <select name="select-branches" id="select-branches"></select>
                             </div>
                         </div>
@@ -112,40 +112,48 @@
                                     <div class="ui-block-a"><h2 id="txtSelectedBranche"></h2></div>
                                 </div>
                                 <div class="body-post">
-                                    <div calss="ui-grid-a" id="myTr">
-                                        <div calss="ui-block-a"><h3>Branch Name:</h3></div>
-                                        <div calss="ui-block-b"><h3 class="color-text-gray" id="txtSelectedBranchName"></h3></div>
+                                    <div class="ui-grid-a">
+                                        <div class="ui-block-a">
+                                            <div class="ui-bar"><h3>Branch Name:</h3></div>
+                                        </div>
+                                        <div class="ui-block-b">
+                                            <div class="ui-bar"><h3 class="color-text-gray" id="txtSelectedBranchName"></h3></div>
+                                        </div>
+                                        <div class="ui-block-a">
+                                            <div class="ui-bar"><h3>Address: </h3></div>
+                                        </div>
+                                        <div class="ui-block-b">
+                                            <div class="ui-bar"><h3 class="color-text-gray" id="txtSelectedAddress"></h3></div>
+                                        </div>
+                                        <div class="ui-block-a">
+                                            <div class="ui-bar"><h3>Kosher: </h3></div>
+                                        </div>
+                                        <div class="ui-block-b">
+                                            <div class="ui-bar" id="iconSelectedKosher"></div>
+                                        </div>
                                     </div>
                                     <div class="seperatorMini"></div>
-                                    <div calss="ui-grid-a" id="myTr">
-                                        <div calss="ui-block-a"><h3>Address: </h3></div>
-                                        <div calss="ui-block-b"><h3 class="color-text-gray" id="txtSelectedAddress"></h3></div>
+                                    <div class="ui-grid-b">
+                                        <div class="ui-block-a">
+                                            <div class="ui-bar"><h3>Opening Hours: </h3></div>
+                                        </div>
+                                        <div class="ui-block-b">
+                                            <div class="ui-bar"><h4 id="txtMidWeek" class="no-margin"></h4><br /><h5 class="margin-5 colored-text" id="txtMidWeekOpenHours"></h5></div>
+                                        </div>
+                                        <div class="ui-block-c">
+                                            <div class="ui-bar"><h4 id="txtWeekend" class="no-margin"></h4><br /><h5 class="margin-5 colored-text" id="txtWeekendOpenHours"></h5></div>
+                                        </div>
+                                        <div class="ui-block-a">
+                                            <div class="ui-bar"><h3>Additionals: </h3></div>
+                                        </div>
+                                        <div class="ui-block-b">
+                                            <div class="ui-bar"><h4 class="no-margin color-text-gray">Manager</h4><br /><h5 class="margin-5 colored-text" id="txtManager"></h5></div>
+                                        </div>
+                                        <div class="ui-block-c">
+                                            <div class="ui-bar"><h4 class="no-margin color-text-gray">Telephone</h4><br /><h5 class="margin-5 colored-text" id="txtTelephone"></h5></div>
+                                        </div>
                                     </div>
-                                    <div class="seperatorMini"></div>
-                                    <div calss="ui-grid-a" id="myTr">
-                                        <div calss="ui-block-a"><h3>Kosher: </h3></div>
-                                        <div calss="ui-block-b" id="iconSelectedKosher"></div>
-                                    </div>
-                                    <div class="seperatorMini"></div>
 
-                                    <div calss="ui-grid-b" id="myTr">
-                                        <div calss="ui-block-a"><h3>Opening Hours: </h3></div>
-                                        <div calss="ui-block-b"><div class="margin-left-15"><h4 id="txtMidWeek" class="no-margin"></h4><h5 class="margin-5" id="txtMidWeekOpenHours"></h5></div></div>
-                                        <div calss="ui-block-c"><div class="margin-left-15"><h4 id="txtWeekend" class="no-margin"></h4><h5 class="margin-5" id="txtWeekendOpenHours"></h5></div></div>
-                                    </div>
-                                    <div class="seperatorMini"></div>
-                                    <div calss="ui-grid-b" id="myTr">
-                                        <div calss="ui-block-a"><h3>Additionals: </h3></div>
-                                        <div calss="ui-block-b"><div class="margin-left-15"><h4 class="no-margin">Manager</h4><h5 class="margin-5" id="txtManager"></h5></div></div>
-                                        <div calss="ui-block-c"><div class="margin-left-15"><h4 class="no-margin">Telephone</h4><h5 class="margin-5" id="txtTelephone"></h5></div></div>
-                                    </div>
-                                    <!--<div class="seperatorMini"></div>
-
-                                    <div calss="ui-grid-b" id="myTr">
-                                        <div calss="ui-block-a"><h3>Additionals:</h3></div>
-                                        <div calss="ui-block-b"><div class="color-text-gray margin-left-15"><h4 class="no-margin">Manager</h4><h5 class="margin-5" id="txtManager"></h5></div></div>
-                                        <div calss="ui-block-c"><div class="color-text-gray margin-left-15"><h4 class="no-margin">Telephone</h4><h5 class="margin-5" id="txtTelephone"></h5></div></div>
-                                    </div>-->
                                     <div class="seperatorMini"></div>
 
                                     <div id="map-canvas"><!-- map loads here... --></div>
@@ -159,7 +167,7 @@
             </div>
 
         </div>
-    </div><!-- index page -->
+    </div><!-- branches page -->
 
     <div data-role="page" id="myorders">
 
@@ -188,6 +196,8 @@
                     <div class="ui-grid-solo">
                         <div class="ui-block-a" id="myOrdersContent">
                             <!--content goes here..-->
+                            <div id="myOrdersListCollapsible" data-role="collapsible-set" data-inset="false" class="ui-collapsible-set" data-corners="false">
+                            </div>
 
                         </div>
                     </div>
